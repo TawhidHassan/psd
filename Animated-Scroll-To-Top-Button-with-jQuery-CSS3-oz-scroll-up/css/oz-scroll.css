@@ -1,0 +1,34 @@
+
+* {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	padding:0;
+	margin:0
+}
+#oz-scroll {
+	position:fixed;
+	bottom:15px;
+	right:-80px;
+	height:48px;
+    top: 600px;
+	width:48px;
+	overflow:hidden;
+	display:none;
+	zoom:1;
+	filter:alpha(opacity=60);
+	opacity:.8;
+	-webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	-ms-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+	transition:all .5s ease-in-out;
+}
+
+#oz-scroll img {max-width:100%}
+
+#oz-scroll:hover {opacity:1}
+
+.style3 {background-image:url('../images/oz-scroll-up/style3.png')}
+
+/* End The Needed Code */
